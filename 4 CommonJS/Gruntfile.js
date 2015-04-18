@@ -7,13 +7,16 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-mocha-istanbul');
 
-    grunt.registerTask('default', ['jshint', 'mochaTest', 'browserify','uglify', 'qunit', 'watch']);
+    
     grunt.registerTask('lint', 'jshint');
     grunt.registerTask('bundle', 'browserify');
     grunt.registerTask('jswatch', 'watch');
     grunt.registerTask('test', 'qunit');
     grunt.registerTask('unittest', 'mochaTest');
+    grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
+    grunt.registerTask('default', ['jshint', 'coverage', 'browserify', 'uglify', 'qunit', 'watch']);
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -59,6 +62,14 @@ module.exports = function (grunt) {
             build: {
                 src: 'client/bundle.js',
                 dest: 'client/bundle.min.js'
+            }
+        },
+        mocha_istanbul: {
+            coverage: {
+                src: 'test',
+                options: {
+                    mask: '*.test.js'
+                }
             }
         }
     });
