@@ -1,5 +1,5 @@
 # DEMO
-# Javascript Best Practices: Modules
+# [Javascript Best Practices: Modules](https://justinjrussell.wordpress.com/2015/04/10/javascript-best-practices-modules/)
 This Demo is a simple application that Formats and Trims a String.
 
 I start with a non-module application, then demo each type of module
