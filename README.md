@@ -10,7 +10,7 @@ You run each Demo by opening the index.html in the browser
 
 You will need to do the following:
 
-1. Install Node.js (https://nodejs.org/)
+1. Install [Node.js](https://nodejs.org/)
 2. Download the demo
 3. Open Command Prompt/Terminal
 4. From the command line, change to the downloaded demo directory
@@ -29,10 +29,10 @@ The *npm install* command installs required dependencies
 
 The *grunt* command performs the following:
 
-1. Runs JSHint
-2. Runs Mocha Unit Test
-3. Runs Istanbul Code Coverage
-4. Bundles to Native Javascript with Browserify
-5. Minifies the Bundle
-6. Runs QUnit Test in PhantomJS browser (headless browser)
-7. Watches files for changes
+1. Runs [JSHint](https://www.npmjs.com/package/grunt-contrib-jshint)
+2. Runs [Mocha](https://www.npmjs.com/package/grunt-mocha) Unit Test
+3. Runs [Istanbul](https://www.npmjs.com/package/grunt-mocha-istanbul) Code Coverage
+4. Bundles to Native Javascript with [Browserify](https://www.npmjs.com/package/grunt-browserify)
+5. [Minifies](https://www.npmjs.com/package/grunt-contrib-uglify) the Bundle
+6. Runs [QUnit](https://www.npmjs.com/package/grunt-contrib-qunit) Test in [PhantomJS](http://phantomjs.org/) browser (headless browser)
+7. [Watches](https://www.npmjs.com/package/grunt-contrib-watch) files for changes
