@@ -6,9 +6,7 @@ Starts with a non-module application, then Demos each type of Module
 
 Each Demo can be ran by opening the *index.html* in the browser
 
-*The CommonJS project must be compiled first*
-
-You will need to do the following:
+To run the CommonJS Demo you will need to do the following:
 
 1. Install [Node.js](https://nodejs.org/)
 2. Download the demo
