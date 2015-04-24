@@ -14,7 +14,7 @@ To run the CommonJS Demo you will need to do the following:
 4. From the command line, change to the downloaded demo directory
 5. Run the following commands
 ```
-cd 4 CommonJS
+cd '4 CommonJS'
 ```
 ```
 npm install
