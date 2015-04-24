@@ -2,9 +2,9 @@
 # [Javascript Best Practices: Modules](https://justinjrussell.wordpress.com/2015/04/10/javascript-best-practices-modules/)
 This Demo is a simple application that Formats and Trims a String.
 
-Starts with a non-module application, then Demos each type of Module
+The Demo starts with a non-module application, then breaks down that application into each type of Module.
 
-Each Demo can be ran by opening the *index.html* in the browser
+Demos can be ran by opening the *index.html* in the browser
 
 To run the CommonJS Demo you will need to do the following:
 
