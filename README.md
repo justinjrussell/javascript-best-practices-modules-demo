@@ -4,7 +4,7 @@ This Demo is a simple application that Formats and Trims a String.
 
 The Demo starts with a non-module application, then breaks down that application into each type of Module.
 
-Demos can be ran by opening the *index.html* in the browser
+Demos can be ran by opening the *index.html* in the browser.
 
 To run the CommonJS Demo you will need to do the following:
 
